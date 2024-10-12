@@ -1,0 +1,177 @@
+body{
+     
+    margin : 0 ;
+}
+ 
+.head{
+    position: relative;
+    background-color: #758694;
+    height: 500px;
+    width: 100%;
+     
+
+}
+
+.me {
+    position: absolute;
+    top: 25px;
+    right : 200px;
+    height: 450px;
+    width: 450px;
+    border-radius: 305px;   
+    border: 5px solid #677077;
+    box-shadow: 0 10px 300px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    position: absolute;
+    
+    font-size: 70px;
+    font-weight: 700;
+    
+    left: 500px ;
+    top: 100px;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.l1{
+    display:block;
+}
+
+.contact{
+    position: relative;
+    margin: 0;
+    top: 350px;
+    left: 505px; 
+    background-color: azure;
+    font-size: 15px;
+     
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 15px 30px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.github{
+    position: relative;
+    margin: 0;
+    top: 350px;
+    left: 525px; 
+    background-color: azure;
+    font-size: 15px;
+     
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding: 15px 30px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact:hover{
+    background-color: #8ab4eb;  
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.github:hover{
+    background-color: #8ab4eb; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.middle{
+    margin: 0;
+    position: relative;
+    height: 750px;
+    width: 100%;
+    background-color: #8b9aa5;
+    
+}
+
+.p1{
+    font-size: 25px;
+}
+
+.middle p{
+    position:relative;
+    margin: 0 ;
+    margin-bottom: 15px;
+    top: 50px;
+    text-align: center;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+      
+}
+
+ hr{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid black;  
+    width: 75%;  
+    top: 55px;
+ }
+
+.exp{
+    position: relative;
+    top: 20px;
+}
+
+.exp p{
+    font-size: 25px;
+}
+
+.expp{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.exp ul{
+    position: relative;
+    top: 45px;
+}
+
+li{
+    position: relative;
+    top:5px;
+    margin-top: 15px;
+    font-size: 17px;
+    
+}
+
+table {
+    position: relative;
+    margin: 0 auto;
+    top : 50px;
+    width: 30%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-style:initial;
+    text-align: center;
+    
+    border: 1px solid #000000;
+    
+}
+
+th {
+    background-color: #9ea0a1;
+    font-weight: bold;
+}
+
+tr{
+    background-color: #dbdbdb;
+}
+ 
+ 
